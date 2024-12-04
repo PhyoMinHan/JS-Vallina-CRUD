@@ -48,7 +48,7 @@ function Delete(id) {
     let studentArray = JSON.parse(studentlist);
     studentArray.splice(id, 1);
     const studentstring = JSON.stringify(studentArray);
-    localStorage.setItem('list', studentstring);
+    localStorage.setIte m('list', studentstring);
     showData();
 };
 function Edit(id) {
