@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD JS VILLINA</title>
+    <script type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="reg_form">
+        <h2>Register Form</h2>
+        <label for="name">Name</label>
+        <input type="text" style="outline: none;" id="name"><br><br>
+        <label for="age">Age</label>
+        <input type="number" style="outline: none;" id="age"><br><br>
+        <label for="address">Address</label>
+        <input type="text" style="outline: none;" id="address"><br><br>
+        <label>Male</label>
+        <input type="radio" name="gender" value="male"><br><br>
+        <label>Female</label>
+        <input type="radio" name="gender" value="female"><br><br>
+        <button id="register" type="button">Register</button><br><br>
+    </div>
+    <div id="update_form" style="display: none;">
+        <h2>Update Form</h2>
+        <input type="hidden" id="uid">
+        <label for="name">Name</label>
+        <input type="text" style="outline: none;" id="uname"><br><br>
+        <label for="age">Age</label>
+        <input type="number" style="outline: none;" id="uage"><br><br>
+        <label for="address">Address</label>
+        <input type="text" style="outline: none;" id="uaddress"><br><br>
+        <label>Male</label>
+        <input type="radio" name="ugender" value="male"><br><br>
+        <label>Female</label>
+        <input type="radio" name="ugender" value="female"><br><br>
+        <button id="update" type="button">Update</button><br><br>
+    </div>
+    <table border="1" cellpadding="10">
+        <thead>
+            <th>No</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="./text.js"></script>
+</body>
+
+</html>
